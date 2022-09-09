@@ -33,6 +33,7 @@ const updateTextContent = () => {
 const calculateOpertaion = () => {
     let copy = operationValue || '';
 
+    // todo: change the code to use array list instead of while loop
     while (strContainsOperation(copy)) {
         const idxOfMultiply = copy.indexOf('*');
         const idxOfDevider = copy.indexOf('/');
